@@ -2,6 +2,9 @@ body {
     margin-top: 40px;
 }
 
+
+/* Background styles */
+
 #bgVideo {
     min-width: 100%;
     min-height: 100%;
@@ -17,6 +20,9 @@ body {
     height: auto;
 }
 
+
+/* Content styles */
+
 .jumbotron {
     background-color: rgba(18, 18, 18, 0.55);
     color: #e9e9e9;
@@ -28,10 +34,31 @@ body {
     border-top: 1px solid rgba(255, 255, 255, 0.25);
 }
 
+.main-list li {
+    margin-bottom: 1.1rem;
+}
 
-/* Extra small devices (portrait phones, less than 576px) */
+
+/* Small devices (landscape phones, less than 768px) styles */
+
+@media (max-width: 767px) {
+    .jumbotron .display-3 {
+        font-size: 3.5rem;
+    }
+    .jumbotron .lead {
+        font-size: 1.2rem;
+    }
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) styles */
 
 @media (max-width: 575px) {
+    #logo {
+        width: 90px;
+        height: 90px;
+        margin-bottom: 1.1rem;
+    }
     .jumbotron .display-3 {
         font-size: 2.5rem;
     }
