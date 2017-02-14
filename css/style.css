@@ -53,6 +53,9 @@ body {
     border-color: #2b6496;
 }
 
+.btn-primary.focus, .btn-primary:focus {
+    color: #777;
+}
 
 /* Small devices (landscape phones, less than 768px) styles */
 
