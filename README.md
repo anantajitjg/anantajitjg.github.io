@@ -1,2 +1,2 @@
-# [anantajitjg.github.io] (https://anantajitjg.github.io)
+# [anantajitjg.github.io](https://anantajitjg.github.io)
 Profile Page
